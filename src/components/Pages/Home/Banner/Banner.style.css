@@ -1,0 +1,111 @@
+.banner {position: relative}
+.banner:after,
+.banner-container:after {
+    content: "";
+    clear: both;
+    display: table
+}
+
+.banner .banner-style {
+    padding: 280px 0px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+}
+
+.banner .item .banner-caption {
+    position: relative;
+    z-index: 6
+}
+
+.banner-caption:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.banner-container {
+    position: relative;
+}
+
+.banner-container.inner {
+    background-size: 100% 100%;
+}
+
+.banner .owl-carousel .owl-nav {
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    max-width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-caption .banner-heading {
+    color: #fff;
+    font-size: 51px;
+    text-align: center;
+}
+
+#banner-slider .owl-nav div {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 20px;
+    position: relative;
+    top: 0;
+}
+
+#banner-slider .owl-nav div:hover {
+    opacity: 0.5;
+}
+
+#banner-slider .owl-nav div:after {
+    content: "";
+    position: relative;
+}
+
+#banner-slider .owl-nav button {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 20px;
+    position: relative;
+    top: 0;
+    transition: all 0.3s ease;
+}
+
+#banner-slider .owl-nav button img {
+    width: 25px;
+}
+
+#banner-slider .owl-nav button.owl-prev {
+    left: -70px;
+    float: left;
+}
+
+#banner-slider .owl-nav button.owl-next {
+    right: -70px;
+    float: right;
+}
+
+.banner .banner-heading {
+    font-family: Bold;
+    font-size: 60px;
+}
+
+.owl-nav .owl-prev:hover,
+.owl-nav .owl-next:hover{
+    border-color: #46db55 !important;
+background-color: #46db55 !important;
+}
+

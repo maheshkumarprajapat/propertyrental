@@ -1,0 +1,16 @@
+.about-sec .circle-list{position: relative;padding: 10px 0;}
+.about-sec .circle-list li {font-size: 16px;font-family: 'SemiBold';
+    margin-bottom: 15px;
+    line-height: 26px;}
+.about-sec .circle-list li span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #46db55;
+    margin-right: 10px;
+    color: #46db55;
+    font-size: 19px;
+    text-align: center;
+    border-radius: 100%;
+    line-height: 1;
+}

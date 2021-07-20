@@ -1,0 +1,56 @@
+header {
+    width: 100%;
+    position: relative;
+}
+header::after {
+    clear: both;
+    display: table;
+    content: '';
+}
+.header-main-section {
+    position: absolute;
+    top: 80px;
+    z-index: 999;
+    width: 100%;}
+
+.header-main-section .navbar {
+    background-color: #231f3f;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+.header-main-section .navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    font-family: SemiBold;
+    position: relative;
+    padding: 0;
+    margin-right: 23px;
+}
+.header-main-section .navbar .navbar-nav .nav-link::before{
+    position: absolute;
+    width: 0%;
+    content: '';
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+        transition: all 0.3s ease;
+    background-color: #fff;
+
+}
+.header-main-section .navbar .navbar-nav .nav-link:hover::before,
+.header-main-section .navbar .navbar-nav .nav-link.active::before{width: 100%;}
+.header-main-section .navbar .navbar-nav .nav-link:hover,
+.header-main-section .navbar .navbar-nav .nav-link.active{color: #46db55;}
+
+
+.innerheader {display: none;}
+.header-main-section.active .innerheader {
+    display: block;
+    z-index: 9999;
+    padding: 10px;
+    background-color: #231f3f;
+    position: fixed;
+    width: 100%;
+    top: -2px;
+}
+.header-main-section .innerheader .navbar{padding: 10px;border-radius: 0;background-color: transparent;}

@@ -1,0 +1,4 @@
+#Blog-section .intro-tab .card{border: none;box-shadow: 0 0 10px #dcdcdc;}
+#Blog-section .intro-tab .card .card-img-top{height: 230px;}
+#Blog-section .intro-tab .card .card-img-top img{width: 100%;height: 100%;}
+#Blog-section .intro-tab .card-body .card-text{font-size: 14px;}

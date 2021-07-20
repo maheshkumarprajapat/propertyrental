@@ -1,0 +1,30 @@
+#Team-section {
+    position: relative;
+    background-color: #FBFBFB;
+    width: 100%;
+}
+.team-tab .team-sec{text-align: center;}
+.team-tab .team-sec .card{border: none;background-color: #fff;}
+.team-tab .team-sec .card-title{font-family: 'Bold';}
+.team-tab .team-sec .card-subtitle{padding: 10px; font-family: SemiBold;margin-bottom: 0;}
+.social-link {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #46db55;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #46db55;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 20px;
+    color: #fff;
+}
+
+.social-link:hover, .social-link:focus {
+    box-shadow: 0 0 10px #dcdcdc;
+    background: #fff;
+    text-decoration: none;
+    color: #46db55;
+    border-color: transparent;
+}

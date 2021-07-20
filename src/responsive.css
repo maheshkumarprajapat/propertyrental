@@ -1,0 +1,81 @@
+@media (max-width: 1200px) {
+.card-tab {display: flex;}
+.banner .owl-carousel .owl-nav {width: 992px;}
+}
+@media (max-width: 1024px) {
+.banner .owl-carousel .owl-nav {width: 800px;}
+}
+@media (max-width: 991px) {
+header .header-icons {padding: 10px;}
+.header-icons-left,
+.header-icons-right {padding: 5px 0;}
+header .header-icons .header-icons-right {margin-bottom: 10px;}
+header .header-icons .header-icons-right a,
+header .header-icons .header-icons-right a,
+header .header-icons .header-icons-left a {font-size: 11px;padding-right: 12px;}
+header .header-icons .header-icons-right,
+header .header-icons .header-icons-left {text-align: center;}
+.intro-tab {margin-bottom: 20px;}
+.section-padding {padding: 50px 0;}
+.ServiceBox-tab {margin-bottom: 20px;}
+#About-section .about_tab .about_sec h2 {font-size: 30px;line-height: 45px;}
+.left-section .goback {padding: 0 0 30px 0;}
+.team-tab {margin-bottom: 20px;}
+.banner-service .card-tab {margin-bottom: 60px;}
+}
+@media (max-width: 767px) {
+.innerBanner-section {height: 300px;}
+.inner-tab .ttl {font-size: 50px;}
+.navbar .navbar-nav .nav-link {margin-bottom: 20px;margin-right: 0 !important;}
+.inner-header .navbar .navbar-nav,
+.header-main-section.active .navbar-nav {height: 100vh;display: flex;justify-content: center;align-items: center;width: 100%;}
+header .header-icons .header-icons-right,
+header .header-icons .header-icons-left {width: 100%;}
+.inner-header {padding: 8px !important;}
+.inner-tab {text-align: center;}
+.inner-tab .breadcrumb {justify-content: center;align-items: center;}
+.inner-tab .breadcrumb-item {font-size: 24px;font-family: SemiBold;margin-bottom: 10px;font-weight: 600;}
+.breadcrumb-item + .breadcrumb-item::before,
+.inner-tab .breadcrumb-item a {color: #46db55 !important;}
+.inner-tab .breadcrumb-item.active {color: #fff;}
+.header-main-section {top: 50px;}
+.header-main-section .navbar-nav {display: flex;align-items: center;}
+.banner .banner-heading {font-size: 50px !important;}
+.heading span,
+.heading {font-size: 35px;}
+#Team-section .team-tab {margin-bottom: 20px;}
+.section-padding {padding: 40px 0;}
+.ServiceBox-tab {margin-bottom: 20px;}
+.mission-section .mission_tab .mission_sec {padding: 30px 15px;}
+.blog-box-tab ul li {padding-right: 15px;}
+.left-section .user-tab ul {padding-left: 20px;}
+.left-section h2 {font-size: 30px;}
+.left-section .goback {padding: 0 0 30px 30px;}
+#BlogListing-section .blog-box-tab {padding: 20px;}
+#BlogListing-section .ServiceBox-tab .card .img-wrap {height: initial;}
+#BlogListing-section .ServiceBox-tab .card .img-wrap img {height: 350px;object-fit: cover;}
+.blog-box-tab {padding: 20px 0;}
+#Contact-section .form-group {margin-bottom: 10px;}
+#Contact-section .mb-3 {margin-bottom: 0 !important;}
+#Contact-section .mt-5 {margin-top: 30px !important;}
+#About-section .about-img-tab {margin-top: 30px !important;}
+.banner .owl-carousel .owl-nav {width: 576px;}
+.team-tab {margin-bottom: 20px;}
+.footer-tab .footer-sec {padding: 0 10px;}
+}
+@media (max-width: 680px) {
+.banner .owl-carousel .owl-nav {width: 480px;}
+}   
+@media (max-width: 576px) {
+.inner-tab .ttl {font-size: 40px;}
+.left-section .heading {font-size: 23px;line-height: 40px;}
+.ServiceBox-tab .card-title {font-size: 20px;}
+.banner .owl-carousel .owl-nav {display: none;}
+.innerBanner-section {height: 350px;padding-top: 80px;}
+}
+@media (max-width: 480px) {
+header .header-icons {display: none;}
+.banner .banner-heading {font-size: 45px !important;}
+.heading-tab {padding: 0 15px;}
+.newsletter-inner .btn {padding: 10px 28px !important;}
+}

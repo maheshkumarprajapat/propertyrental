@@ -1,0 +1,156 @@
+body{ padding:0px; margin:0px;}
+table, tr, td, h1, h2, h3, h4, h5, h6, div, span, a, li, ul, ol, p, form, input{ padding:0px; margin:0px; text-decoration:none;
+ font-weight:normal; line-height:normal;font-family:Medium;outline:none}
+ a:hover,a:focus,
+ a{text-decoration: none !important;outline:none !important;}
+ input:focus,textarea:focus,button:focus{outline:none !important;}
+ input:focus,textarea:focus{border:none}
+ li{list-style: none !important ;}
+html,body{overflow-x:hidden}
+
+/* Global CSS */
+h1{font-size:60px}
+h2{font-size:40px}
+h5{font-size:20px}
+p{font-size:16px; line-height:26px;}
+
+/* font family */
+
+@font-face {
+    font-family: Black;
+    src: url(./fonts/Raleway-Black.ttf);
+}
+
+@font-face {
+    font-family: Bold;
+    src: url(./fonts/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: ExtraBold;
+    src: url(./fonts/Raleway-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Light;
+    src: url(./fonts/Raleway-Light.ttf);
+}
+@font-face {
+    font-family: Medium;
+    src: url(./fonts/Raleway-Medium.ttf);
+}
+@font-face {
+    font-family: Regular;
+    src: url(./fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: SemiBold;
+    src: url(./fonts/Raleway-SemiBold.ttf);
+}
+
+/* Paddings and Margins */
+.section-padding{padding:60px 0px}
+.small-padding{padding:40px 0px;}
+.large-padding{padding:110px 0px;}
+
+
+/* Btn Colors */
+.btn.lg-btn{padding: 10px 50px !important;}
+.btn.btn-lime{background:#46db55;border:1px solid #46db55;color:#fff;
+padding: 10px 32px;font-family: Bold;border-radius: 50px;letter-spacing: 0.5px;
+}
+.btn.btn-lime:hover{background:#333;border:1px solid #333;color:#46db55;}
+
+.btn.btn-white{background:#fff;border:1px solid #fff;color:#46db55;
+    padding: 8px 25px;font-family: Bold;border-radius: 50px;letter-spacing: 0.5px;
+}
+.btn.btn-white:hover{background:#46db55;border:1px solid #46db55;color:#fff;}
+
+
+
+/* Heading */
+
+.heading-tab {
+    text-align: center;
+    position: relative;
+    margin: auto auto 40px
+}
+
+.heading-tab:after {
+    content: "";
+    clear: both;
+    display: table
+}
+.heading span,
+.heading {
+    position: relative;
+   font-size: 40px;
+    color: #333;
+    font-family: Bold;
+}
+.heading span{color: #46db55;}
+.heading-tab p {
+    margin: auto;
+    font-size: 20px;
+    width: 970px;
+    max-width: 100%;
+    margin-top: 10px;
+    color: #383840;
+    font-family: 'SemiBold';
+}
+/* Step Sec */
+.intro-tab{position: relative;}
+.intro-tab:after{content: ""; clear: both; display: table;}
+.intro-tab .card-body .card-title{font-size:24px; color: #46db55;font-family: SemiBold;margin-bottom: 10px;}
+.intro-tab .card-body .card-text{font-size:13px;line-height: 24px;font-family: SemiBold;}
+.intro-tab .card-body a{font-size:16px;color: #46db55;font-family: SemiBold;}
+.intro-tab .card-body a span{margin-left: 5px;}
+.intro-tab{margin-bottom: 20px;}
+
+
+
+/* Image Block */
+.img-wrap{overflow:hidden;display:block}
+.img-wrap:after{content:"";clear:both;display:table}
+.img-wrap.fill img{width:100%;display: block}
+.img-wrap.full img{width:100%;max-width:100%;display: block}
+.img-wrap img
+{
+    max-width:100%;display: inline-block;
+    -moz-transition:all 0.5s linear;
+    -webkit-transition:all 0.5s linear;
+    -ms-transition:all 0.5s linear;
+    -o-transition:all 0.5s linear;
+}
+.img-wrap.zoom:hover img
+{
+    opacity:1;
+    -moz-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
+}
+
+.img-wrap.left{text-align:left}
+.img-wrap.center{text-align:center}
+.img-wrap.right{text-align:right}
+
+
+.navbar-toggler {
+    background-color: #46db55 !important;
+}
+
+.ServiceBox-tab{margin-bottom: 20px;}
+#Service-section .ServiceBox-tab .card-title{color: #46db55;}
+.ServiceBox-tab a {color: #46db55; font-family: 'SemiBold'; display: inline-block;padding-top: 10px;}
+
+.innerBanner-section .inner-tab{padding-top: 25px;}
+
+
+
+
+
+
+@keyframes rotate {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}

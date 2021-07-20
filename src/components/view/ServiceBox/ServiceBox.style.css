@@ -1,0 +1,12 @@
+
+.ServiceBox-tab {display: flex;}
+.ServiceBox-tab .card{border: none; box-shadow:0 0 10px #dddde3;text-align: center;padding: 20px;}
+.ServiceBox-tab .card-img-top{width: 80px;height: 80px;object-fit: cover;}
+.ServiceBox-tab .card-body{margin-top: 30px;padding: 0;}
+
+.ServiceBox-tab .card-title{font-size: 24px;
+    font-family: SemiBold;
+    margin-bottom: 15px;}
+.ServiceBox-tab .card-text{font-size: 16px;
+    line-height: 24px;
+    font-family: SemiBold}

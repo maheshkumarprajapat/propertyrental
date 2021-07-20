@@ -1,0 +1,116 @@
+#Service-section .ServiceBox-tab .card-img-top {
+  padding: 15px;
+  width: 100%;
+  height: 100%;
+}
+#Service-section .ServiceBox-tab .card{
+  transform: translateY(5px);  transition: all 0.3s ease;
+padding: 20px 0 30px 0
+
+}
+#Service-section .img-icon {
+  width: 80px;  
+  height: 80px;
+  margin: auto;
+  position: relative;
+}
+#Service-section .img-icon::before{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  
+  border-radius: 100%;
+  
+}
+#Service-section .ServiceBox-tab .card:hover {transform: translateY(-5px);}
+#Service-section .ServiceBox-tab .card:hover .img-icon::before{
+  animation: rotate 8s linear infinite;border: 2px dotted #46db55;
+}
+
+.pagination-section .carts-sec .list-image {
+    height: 250px;
+  }
+  .pagination-section .carts-sec .list-image img {
+    object-fit: contain;
+  }
+  .pagination-section .carts-sec .content {
+    padding: 20px;
+  }
+  .pagination-section .carts-sec .content p {
+    margin-bottom: 0;
+  }
+  .recent-section h1 {
+    text-transform: capitalize !important;
+  }
+  .styled-pagination .pagination {
+    margin: 15px auto;
+    display: flex;
+    list-style: none;
+    outline: none;
+    justify-content: center;
+  }
+  .styled-pagination .pagination > .active > a {
+    box-shadow: 0 0 10px #dcdcdc;
+    color: #46db55;
+  }
+  .styled-pagination .pagination > li > a {
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+  }
+  .styled-pagination .pagination > li:nth-child(2) a {
+    border: none;
+    /* background-color: transparent; */
+    font-size: 0;
+    background-image: url(white-left-arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10px;
+  }
+  .styled-pagination .pagination > li:nth-child(6) a {
+    border: none;
+    /* background-color: transparent; */
+    font-size: 0;
+    background-image: url(white-right-arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10px;
+  }
+  .styled-pagination .pagination > li:nth-child(1),
+  .styled-pagination .pagination > li:nth-child(7) {
+    display: none;
+  }
+  .styled-pagination .pagination > .active > a,
+  .styled-pagination .pagination > .active > span,
+  .styled-pagination .pagination > .active > a:hover,
+  .styled-pagination .pagination > .active > span:hover,
+  .styled-pagination .pagination > .active > a:focus,
+  .styled-pagination .pagination > .active > span:focus {
+    background-color: #fff;
+    box-shadow: 0 0 10px #dcdcdc;
+    border-color: #ddd;
+    outline: none;
+  }
+  .styled-pagination .pagination > li > a,
+  .styled-pagination .pagination > li > span {
+    margin-right: 10px;
+    display: block;
+    font-weight: 600;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    font-size: 16px;
+color: #fff;
+    border-radius: 100%;
+    background: #46db55;
+    font-family: "SemiBold";
+  }
+  .styled-pagination .pagination > li:first-child > a,
+  .styled-pagination .pagination > li:first-child > span,
+  .styled-pagination .pagination > li:last-child > a,
+  .styled-pagination .pagination > li:last-child > span {
+    border-radius: unset;
+  } /* ./RecentProduct Section */

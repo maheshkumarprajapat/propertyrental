@@ -1,0 +1,36 @@
+.banner-service .card-img{width: initial;}
+.banner-service {position: relative;margin-top: -120px;z-index: 99;}
+.banner-service .card {
+    position: relative;
+    box-shadow: -1px 0 66px #dcdcdc;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    transition: all 0.3s ease;
+    transform: translateY(5px);
+}
+.banner-service .card:hover{
+    transform: translateY(-5px);
+
+}.banner-service .card .icon-img {
+    background: #46db55;
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 90%;
+    left: 50%;
+    box-shadow: 0 0 10px #0009;
+    transform: translate(-50%, 13px);
+}
+.banner-service .card .icon-img img {margin: auto}
+.banner-service .card .card-body {padding-top: 60px;}
+.banner-service .card .card-title {font-size: 24px;font-family: SemiBold; margin-bottom: 15px;}
+.banner-service .card .card-text {font-size: 14px;font-family: SemiBold;padding:0 10px}
+

@@ -1,0 +1,37 @@
+header .header-icons {
+    padding-top: 30px;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+}
+
+header .header-icons .header-icons-right,
+header .header-icons .header-icons-left {
+    background-color: transparent;
+    display: inline-block;
+}
+
+header .header-icons .header-icons-left {
+    float: left;
+}
+header .header-icons .header-icons-right a,
+header .header-icons .header-icons-left a {
+    padding-right: 15px;color: #fff;
+    font-weight: 500;
+text-decoration: none;
+    font-family: SemiBold; font-size: 14px;
+}
+
+header .header-icons .header-icons-right i:nth-child(6),
+header .header-icons .header-icons-left a:nth-child(3) {
+    padding: 0px;
+}
+
+header .header-icons a i {
+    margin-right: 5px;
+}
+
+header .header-icons .header-icons-right {
+    float: right;
+}
+

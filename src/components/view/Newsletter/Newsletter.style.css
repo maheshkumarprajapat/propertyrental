@@ -1,0 +1,28 @@
+.shop-newsletter{
+	background:whitesmoke;
+}
+.shop-newsletter .inner{
+	text-align:center;
+}
+.shop-newsletter .inner h4 {
+	color: #333;
+	font-size: 35px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.shop-newsletter .inner p span,
+.shop-newsletter .inner p{
+    font-size: 20px;
+    color: #383840;
+    font-family: 'SemiBold';
+}
+.shop-newsletter .inner p span{
+	color:#46db55;
+}
+.newsletter-inner .form-group{margin-bottom: 0;}
+.newsletter-inner .form-control{height: 55px;border-radius: 60px;padding: 0 170px 0 30px;outline: none;color: #555555;font-weight: 400;border:none;box-shadow: 0 0 10px #dcdcdc;}
+.newsletter-inner .form-control:focus{box-shadow: none;}
+.newsletter-inner{padding-top: 10px;position: relative;}
+.newsletter-inner .btn{padding: 10px 35px;background-color: #46db55 ;height: 55px;position: absolute;top: 10px;color: #fff;font-family: SemiBold;right: 0;border-radius: 0 50px 50px 0;}
+.newsletter-inner .btn:hover{background-color: #000;color: #46db55;}

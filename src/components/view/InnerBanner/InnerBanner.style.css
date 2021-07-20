@@ -1,0 +1,28 @@
+.innerBanner-section {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    background-size: cover;
+    height: 380px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    flex-direction: column;
+}
+.innerBanner-section .inner-tab{text-align: center;}
+.innerBanner-section .breadcrumb{justify-content: center;}
+.breadcrumb-item+.breadcrumb-item::before,
+.innerBanner-section .breadcrumb .breadcrumb-item a{color: #46db55 !important;}
+.innerBanner-section .breadcrumb .breadcrumb-item.active{color: #fff;}
+.innerBanner-section .breadcrumb .breadcrumb-item{
+    font-size: 20px;
+    font-family: SemiBold;
+    margin-bottom: 15px;}
+.innerBanner-section .ttl{
+        font-size: 50px;
+    color: #333;
+    font-family: Bold;color: #46db55 ;}

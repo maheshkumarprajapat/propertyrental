@@ -1,0 +1,12 @@
+#About-section .about_tab{display: flex;align-items: center;}
+#About-section .about_tab .about_sec h2{position: relative;font-size: 40px;color: #707070;font-family: SemiBold;}
+#About-section .about_sec h5{font-size: 20px;font-family: SemiBold;margin-bottom: 0;padding-bottom: 20px;color: #46db55;}
+#About-section .about_sec p{color:#707070}
+#About-section  .choose-section{background-color: #FBFBFB;position: relative;width: 100%!;}
+.mission-section .mission_img .img-wrap img{height: 318px;}
+.mission-section .mission_tab {background-color: #000000;display: flex;align-items: center;justify-content: center;padding: 0;}
+.mission-section .mission_tab .mission_sec{color: #fff; text-align: center;padding:0 10px;}
+.mission-section .mission_tab .mission_sec .icon {margin-bottom: 15px;}
+.mission-section .mission_tab .mission_sec .icon img{width: 60px;height: 60px;margin: auto;object-fit: cover;}
+.mission-section .mission_tab .mission_sec h3{font-family: SemiBold;}
+.mission-section .mission_tab .mission_sec p{font-size: 14px;}

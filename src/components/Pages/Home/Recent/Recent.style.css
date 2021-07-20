@@ -1,0 +1,7 @@
+#Recent-section{position: relative;background-color: #FBFBFB;width: 100%;padding: 40px 0;}
+#Recent-section .card{border: none;background-color: transparent;box-shadow: none;}
+#Recent-section  .card-body{margin-top: 15px; padding: 0;}
+#Recent-section .intro-tab .card-body .card-title {font-size: 20px;}
+#Recent-section .intro-tab .card-body .card-text {font-size: 14px;}
+
+#Recent-section .card .card-body a{ display: none;}

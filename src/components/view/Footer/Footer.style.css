@@ -1,0 +1,16 @@
+footer{padding: 40px 0;position: relative;background-color: #040404;}
+footer .footer-tab .footer-sec .ttl{color:#46db55;font-family: 'SemiBold';font-size: 20px;margin-bottom: 20px;}
+footer .footer-tab .footer-sec .footer-logo{margin-bottom: 10px; width: 50px;height: 50px; display: inline-block;}
+footer .footer-tab .footer-sec ul{margin: 0;}
+footer .footer-tab .footer-sec li {margin-bottom: 15px;transition: all 0.3s ease;transform: translateX(-4px);}
+footer .footer-tab .footer-sec li a{color: #fff;}
+footer .footer-tab .footer-sec li:hover{    transform: translateX(4px);}
+footer .footer-tab .footer-sec li:hover a{color: #46db55;}
+.footer-sec address{color: #fff;line-height: 26px;}
+footer .footer-tab .footer-sec p{color: #fff;line-height: 26px;}
+footer .footer-form .form-group{margin-bottom: 0;}
+footer .footer-form .form-control{height: 55px;border-radius: 60px;padding: 0 170px 0 30px;outline: none;color: #555555;font-weight: 400;border: none;}
+footer .footer-form .form-control:focus{box-shadow: none;}
+footer .footer-form{padding-top: 30px;position: relative;}
+footer .footer-form .btn{padding: 10px 25px;background-color: #46db55 ;height: 55px;position: absolute;top: 30px;color: #fff;font-family: SemiBold;right: 0;border-radius: 0 50px 50px 0;}
+

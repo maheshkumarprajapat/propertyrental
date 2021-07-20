@@ -1,0 +1,11 @@
+#Trending-section .card{
+    padding: 15px;
+    border: none;
+border-radius: 10px;
+    box-shadow: 0 0 10px #dcdcdc;
+}
+#Trending-section .card-body{
+    margin-top: 15px;
+padding: 0;}
+
+#Trending-section .card a{display: none;}
