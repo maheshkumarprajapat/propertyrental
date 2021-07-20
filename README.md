@@ -1,4 +1,4 @@
-# Restaurant Website
+# Property Rental Website
 
 ### [Live Site](https://propertyrental-j8fm95vdj-shivkumarprajapat.vercel.app/)
 
